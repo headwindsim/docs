@@ -1,14 +1,14 @@
 ---
 home: true
 icon: home
-title: Project home
+title: Home
 heroImage: /logo.svg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: Project name
-tagline: You can place the description of the project here.
+heroText: Headwind Simulations Documentation
+tagline: Welcome to the documentation and guides for Headwind Simulations, an open-source community-driven project. Here, you'll find a wealth of resources to assist you in piloting and utilizing our aircrafts, as well as contributing to the ongoing development of Headwind Simulations projects.
 actions:
   - text: How to Use 💡
     link: ./demo/
