@@ -1,19 +1,20 @@
 {
-  "name": "headwindsim-docs",
-  "version": "1.0.0",
-  "description": "Docs project for Headwind Simulations",
+  "name": "headwind-simulations-docs",
+  "description": "Documentation for Headwind Simulations Aircrafts",
+  "version": "0.7.0",
   "license": "GNUv3",
   "type": "module",
   "scripts": {
-    "docs:build": "vuepress build src",
-    "docs:clean-dev": "vuepress dev src --clean-cache",
-    "docs:dev": "vuepress dev src",
+    "docs:build": "vuepress-vite build src",
+    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
+    "docs:dev": "vuepress-vite dev src",
     "docs:update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/client": "2.0.0-beta.62",
-    "vue": "^3.2.47",
-    "vuepress": "2.0.0-beta.62",
-    "vuepress-theme-hope": "2.0.0-beta.219"
+    "@vuepress/bundler-vite": "2.0.0-rc.19",
+    "sass-embedded": "^1.83.0",
+    "vue": "^3.5.13",
+    "vuepress": "2.0.0-rc.19",
+    "vuepress-theme-hope": "2.0.0-rc.71"
   }
 }
