@@ -4,6 +4,7 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
+  darkmode: "enable",
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
   author: {
@@ -11,7 +12,7 @@ export default hopeTheme({
     url: "https://mister-hope.com",
   },
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "https://raw.githubusercontent.com/headwindsim/branding/refs/heads/main/logos/Headwind.svg",
 
   repo: "headwindsim/docs",
 
