@@ -36,5 +36,5 @@ highlights:
         link: https://theme-hope.vuejs.press/guide/feature/encrypt.html
 
 copyright: false
-footer: Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | MIT Licensed, Copyright © 2019-present Mr.Hope
+footer: Made with <a href="https://vuepress.vuejs.org/" target="_blank">VuePress</a> | <a href="https://theme-hope.vuejs.press/" target="_blank">Theme Hope</a> | Copyright © Headwind Simulations
 ---
